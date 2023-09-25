@@ -1,0 +1,8 @@
+# @laodi/components
+
+## 0.0.2
+
+### Patch Changes
+
+- eff5473: 首次发包提交测试
+- test
