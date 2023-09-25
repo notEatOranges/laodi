@@ -24,5 +24,8 @@
     "gulp-sass": "^5.1.0",
     "sass": "^1.67.0",
     "shelljs": "^0.8.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
