@@ -1,0 +1,32 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "pnpm --filter=@laodi/* run build"
+  },
+  "dependencies": {
+    "@laodi/components": "workspace:*",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@laodi/resolver": "workspace:^",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.4",
+    "vue-tsc": "^1.8.5"
+  },
+  "compilerOptions": {
+    "types": [
+      "./components.d.ts",
+      "./auto-imports.d.ts"
+    ]
+  }
+}

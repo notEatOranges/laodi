@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("./utils/install.js"),t=require("./installs.js"),n=require("./Input/index.js"),l=e.makeInstaller([...t]);exports.LaoInput=n.LaoInput;exports.default=l;
