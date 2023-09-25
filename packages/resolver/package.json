@@ -1,6 +1,6 @@
 {
   "name": "@laodi/resolver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "组件库自动导入插件",
   "main": "./index",
   "author": "",
